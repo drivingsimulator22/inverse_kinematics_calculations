@@ -7,15 +7,13 @@ import numpy as np
 
 # Coordinates of the points where the rods 
 # are attached to the base.
-# Coordinates of the points where the rods 
-# are attached to the platform.
-#  [
+# base= [
 #  [X1,Y1,Z1],
 #  [X2,Y2,Z2],
 #  [X3,Y3,Z3],
 #  [X4,Y4,Z4],
 #  [X5,Y5,Z5],
-#  [X5,Y5,Z6].
+#  [X6,Y6,Z6].
 #             ]
 
 
@@ -30,15 +28,13 @@ Base = np.transpose(Base)
     
 # Coordinates of the points where the rods 
 # are attached to the platform.
-# Coordinates of the points where the rods 
-# are attached to the platform.
-#  [
-#  [X1,Y1,Z1],
-#  [X2,Y2,Z2],
-#  [X3,Y3,Z3],
-#  [X4,Y4,Z4],
-#  [X5,Y5,Z5],
-#  [X5,Y5,Z6].
+#  =platform=[
+#               [X1,Y1,Z1],
+#               [X2,Y2,Z2],
+#               [X3,Y3,Z3],
+#               [X4,Y4,Z4],
+#               [X5,Y5,Z5],
+#               [X6,Y6,Z6].
 #             ]
 Platform = np.array([ 
     [333.9848185,242.098462,0],
