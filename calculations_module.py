@@ -75,7 +75,7 @@ def rotZ(yaw):
 def calc():
         # Given input trans, rotation
         trans = np.transpose(np.array([0,0,0])) # X, Y, Z
-        rotation = np.transpose(np.array([0,0,0])) # yaw roll pitch
+        rotation = np.transpose(np.array([0,0,0])) #  pitch yaw roll (radian)
         # # # Definition of the platform home position.
         home_pos= np.array([0, 0, 997])
         
